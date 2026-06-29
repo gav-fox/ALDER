@@ -1,0 +1,16 @@
+[project]
+name = "alder"
+version = "0.0.1"
+description = "open-source agroforestry design simulator"
+requires-python = ">=3.11"
+
+
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+
+
