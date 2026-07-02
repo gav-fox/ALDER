@@ -1,6 +1,6 @@
-from alder.core.species_record import SpeciesRecord
+from alder.core.species_record import SpeciesRecord 
 from alder.core.wrapped_value import WrappedValue
-def test_wrapped_value_species_record():
+def test_nitrogen_fixation():
     red_clover = SpeciesRecord ("Red Clover", "Trifolium pratense",)
     red_clover.species_data["Nitrogen Fixing Amount"]= WrappedValue (200, "KG/HA/YR", "AHDB", "High")
     assert red_clover.common_name == "Red Clover"
@@ -9,4 +9,8 @@ def test_wrapped_value_species_record():
     assert red_clover.species_data["Nitrogen Fixing Amount"].units == "KG/HA/YR"
     assert red_clover.species_data["Nitrogen Fixing Amount"].source == "AHDB"
     assert red_clover.species_data["Nitrogen Fixing Amount"].confidence == "High"
+    assert red_clover.nitrogen_fixation(3) == 600
+    
+
+
 
