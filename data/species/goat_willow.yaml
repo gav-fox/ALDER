@@ -1,0 +1,68 @@
+common_name: Goat Willow
+
+latin_name: Salix caprea
+
+edible_fraction_of_total_biomass: 
+    value_min: 30
+    value_max: 50
+    units: "%" 
+    source: Hawke's Bay trial NZ
+    confidence: Low 
+
+edible_yield: 
+    value: 1.8
+    units: kg/DM/tree/year
+    source: NZ Farm Forestry Clydevale trial
+    confidence: Low
+
+mature_edible_yield:
+    value: 22
+    units: kg/tree/year
+    source: prof Peter Kemp
+    confidence: Low
+
+pollard_edible_yield_5_year_regrowth:
+    value: 8.8
+    units: kg/DM/tree
+    source: Hawke's Bay trial NZ
+    confidence: Low
+
+cattle_palatability:
+    value: 1
+    units: rank_1_to_7
+    source: Woodland Grazing Toolbox via Agricology
+    confidence: Medium
+
+crude_protein:
+    value: 11.6
+    units: "%"
+    source: Lunde 1917 via Agricology Table 3
+    confidence: High
+
+moisture:
+    value: 11.5
+    units: "%"
+    source: Lunde 1917 via Agricology Table 3
+    confidence: High
+
+fibre:
+    value: 16.7
+    units: "%"
+    source: Lunde 1917 via Agricology Table 3
+    confidence: High 
+
+feed_adaptability: 
+    starting_value: 1.5
+    end_value: 3.5
+    duration: 81 days
+    units: kg
+    source: Agricology guide text
+    confidence: Medium
+
+
+
+
+
+
+
+                                      
