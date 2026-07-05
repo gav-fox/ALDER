@@ -1,0 +1,64 @@
+common_name: Lucerne / Alfalfa (cv. Mezzo)
+
+latin_name: Medicago sativa
+
+ley_mix_inclusion:
+    percent_by_weight: 1.5
+    kg_per_acre: 0.200
+    source: user-supplied herbal ley mix composition (not independently verified)
+    confidence: N/A
+
+crude_protein:
+    value: 20.6
+    units: "% DM (fresh forage, average)"
+    value_range_note: "SD 3.4, range 12.0-31.8% DM fresh; hay average 18.2% DM; declines with maturity; leaf protein content is much higher and more stable than stem protein content"
+    source: Feedipedia (Medicago sativa)
+    confidence: High
+
+metabolisable_energy:
+    value: 9.4
+    units: MJ/kg DM (fresh forage)
+    value_range_note: "hay average 8.4 MJ/kg DM"
+    source: Feedipedia (Medicago sativa)
+    confidence: High
+
+organic_matter_digestibility:
+    value: 68.5
+    units: "% (fresh forage, SD 5.5)"
+    value_range_note: "declines sharply with maturity - from 77% at vegetative stage to 60% at flowering"
+    source: Feedipedia (Medicago sativa)
+    confidence: High
+
+nitrogen_fixation:
+    value_min: 140
+    value_max: 160
+    units: kg N/ha/year
+    value_range_note: "extremely wide range reported across the literature depending on management/climate/water/companion species, from as low as 4 up to 650 kg N/ha/yr in extreme cases, with irrigated systems reported around 300-350 kg N/ha/yr; 140-160 kg N/ha/yr used here as a commonly-cited representative range, not a precise measured value for this specific variety"
+    source: cross-referenced N-fixation literature (via WebSearch synthesis); no cultivar-specific (Mezzo) figure found
+    confidence: Low
+
+deep_rooting_and_drought_tolerance:
+    value: "deep taproot reaching down to 4m typically, up to 7-9m in well-drained soils; this deep rooting is the basis of lucerne's strong drought tolerance"
+    units: qualitative
+    source: Feedipedia (Medicago sativa)
+    confidence: High
+
+dry_matter_yield:
+    value_min: 16
+    value_max: 27
+    units: "t DM/ha/year (species-level range across country/irrigation contexts: France ~16, USA ~20, irrigated 25-27; reduced to 8-15 t DM/ha in year 3 of a stand in some contexts)"
+    source: Feedipedia (Medicago sativa)
+    confidence: Medium
+    note: "negative association exists between yield and nutritive value - higher-yielding, more mature cuts tend to be lower quality"
+
+bloat_risk:
+    value: "grazed/fresh lucerne at vegetative or mid-bud growth stage may cause bloat in sheep and cattle; risk is managed by restricting grazing access, pre-feeding animals, or supplementing with grass/cereal grains/anti-foaming agents (e.g. poloxalene)"
+    units: qualitative
+    source: Feedipedia (Medicago sativa)
+    confidence: High
+
+cultivar_specific_note:
+    value: "no data specific to the Mezzo cultivar (as distinct from Plato or lucerne generally) was found in this research pass - all figures above are species-level (Medicago sativa). Seed-merchant literature typically distinguishes lucerne varieties by winter-dormancy class, which affects regrowth speed after cutting/grazing and winter-hardiness, but no dormancy-class rating specific to Mezzo or Plato was confirmed."
+    units: qualitative
+    source: N/A
+    confidence: N/A

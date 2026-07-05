@@ -1,0 +1,58 @@
+common_name: Timothy (cv. COMER)
+
+latin_name: Phleum pratense
+
+ley_mix_inclusion:
+    percent_by_weight: 3.9
+    kg_per_acre: 0.500
+    source: user-supplied herbal ley mix composition (not independently verified)
+    confidence: N/A
+
+crude_protein:
+    value: 13.8
+    units: "% DM"
+    value_range_note: "SD 4.5; range 7.6-22.3% DM across compiled samples; declines rapidly as the plant matures"
+    source: Feedipedia (Phleum pratense, aerial part, fresh)
+    confidence: High
+
+metabolisable_energy:
+    value: 9.3
+    units: MJ/kg DM
+    source: Feedipedia (Phleum pratense, aerial part, fresh)
+    confidence: High
+
+organic_matter_digestibility:
+    value: 66.7
+    units: "% (SD 9.7)"
+    source: Feedipedia (Phleum pratense, aerial part, fresh)
+    confidence: High
+
+winter_hardiness:
+    value: "very winter-hardy; tolerant of both cold temperatures and ice encasement; often stays greener and keeps growing through winter/early spring better than most other pasture grasses"
+    units: qualitative
+    source: cross-referenced forage-species literature (Oregon State University Forage Information System; USDA-NRCS Plant Guide)
+    confidence: Medium
+
+drought_tolerance:
+    value: "poor - shallow root system, sensitive to drought and heat; not persistent under continuous grazing; this is a real limitation despite excellent winter-hardiness"
+    units: qualitative
+    source: cross-referenced forage-species literature (Oregon State University Forage Information System)
+    confidence: Medium
+
+maturity_timing:
+    value: "relatively late-heading/late-flowering - matures roughly 2-3 weeks later than tall fescue, cocksfoot (orchardgrass), and smooth bromegrass; useful for extending the grazing/haying window into late spring"
+    units: qualitative
+    source: cross-referenced forage-species literature (Oregon State University Forage Information System)
+    confidence: Medium
+
+palatability:
+    value: "very palatable and nutritious - so palatable that it tends to be selectively grazed out of a mixed sward over time if not managed carefully; makes excellent hay, especially combined with alfalfa/lucerne"
+    units: qualitative
+    source: cross-referenced forage-species literature (Oregon State University Forage Information System)
+    confidence: Medium
+
+native_status_uk:
+    value: "native British species, though naturally occurring wild populations are largely confined to old lowland grassland on moist soils such as water-meadows; widely sown agriculturally beyond this native range"
+    units: qualitative
+    source: cross-referenced UK wildflower/native-species literature (Emorsgate Seeds species notes)
+    confidence: Low

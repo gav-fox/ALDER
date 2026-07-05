@@ -1,0 +1,48 @@
+common_name: "Ribgrass / Plantain (cv. TONIC - almost certainly 'Ceres Tonic', a plant-variety-right-registered cultivar from 1994)"
+
+latin_name: Plantago lanceolata
+
+ley_mix_inclusion:
+    percent_by_weight: 2.7
+    kg_per_acre: 0.350
+    source: user-supplied herbal ley mix composition (not independently verified)
+    confidence: N/A
+
+crude_protein:
+    value_min: 20
+    value_max: 25
+    units: "% DM (throughout most of the year, except late spring/summer when it is lower)"
+    source: cross-referenced forage plantain literature (New Zealand Journal of Agricultural Research review, via WebSearch synthesis)
+    confidence: Medium
+
+metabolisable_energy:
+    value_min: 8.9
+    value_max: 10.6
+    units: MJ/kg DM
+    value_range_note: "described in the source literature as comparatively low ME relative to its high crude protein"
+    source: cross-referenced forage plantain literature (New Zealand Journal of Agricultural Research review, via WebSearch synthesis)
+    confidence: Medium
+
+mineral_content:
+    value: "higher calcium, sodium, and cobalt content than perennial ryegrass or ryegrass/clover swards; lower potassium and manganese content by comparison"
+    units: qualitative (comparative, no absolute figures found)
+    source: cross-referenced forage plantain literature (via WebSearch synthesis)
+    confidence: Medium
+
+nitrogen_leaching_mitigation:
+    value: "a well-documented, distinctive trait: aucubin (a plantain-specific bioactive compound) inhibits soil nitrification and reduces ammonia production in the rumen; feeding pastures containing plantain measurably reduces nitrogen concentration in cattle urine, which in turn reduces N leaching risk from grazed pasture - this is an active area of NZ dairy-system research"
+    units: qualitative
+    source: cross-referenced forage plantain literature (ScienceDirect meta-analysis and NZ Journal of Agricultural Research paper, via WebSearch synthesis)
+    confidence: Medium
+
+anthelmintic_properties:
+    value: "has been claimed to have anthelmintic (anti-parasitic), diuretic and antimicrobial properties, but - unlike chicory's much more robustly demonstrated anthelmintic effect - these claims were not clearly/consistently demonstrated in targeted plantain-specific research reviewed in this pass. Treat as a weaker, less-evidenced claim than the equivalent claim for chicory or sainfoin/birdsfoot trefoil's tannin-based anthelmintic effects"
+    units: qualitative
+    source: cross-referenced forage plantain literature (via WebSearch synthesis)
+    confidence: Low
+
+drought_tolerance:
+    value: "drought tolerance is cited as one of the principal reasons for renewed agricultural interest in plantain, alongside mineral content, animal-health benefits, and adaptability across diverse soil types"
+    units: qualitative
+    source: cross-referenced forage plantain literature (via WebSearch synthesis)
+    confidence: Medium

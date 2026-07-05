@@ -1,0 +1,49 @@
+common_name: Red Clover (cv. MILVUS)
+
+latin_name: Trifolium pratense
+
+ley_mix_inclusion:
+    percent_by_weight: 2.3
+    kg_per_acre: 0.300
+    source: user-supplied herbal ley mix composition (not independently verified)
+    confidence: N/A
+
+crude_protein:
+    value: 19.7
+    units: "% DM (fresh forage, average)"
+    value_range_note: "SD 2.9, range 15.2-27.7% DM across 57 samples; hay average 18.3% DM"
+    source: Feedipedia (Trifolium pratense)
+    confidence: High
+
+metabolisable_energy:
+    value: 10.4
+    units: MJ/kg DM (fresh forage)
+    value_range_note: "hay average 9.5 MJ/kg DM"
+    source: Feedipedia (Trifolium pratense)
+    confidence: High
+
+organic_matter_digestibility:
+    value: 74.1
+    units: "% (fresh forage)"
+    source: Feedipedia (Trifolium pratense)
+    confidence: High
+
+nitrogen_fixation:
+    value_min: 150
+    value_max: 250
+    units: kg N/ha/year
+    value_range_note: "AHDB-cited range; a separate Feedipedia estimate gives a lower figure of ~93 kg N/ha alongside ~4.2 t DM/ha of N-rich residue contributed to soil - kept alongside the AHDB range rather than discarded, since fixation rates are highly context-dependent (cultivar, fertilisation, year of stand)"
+    source: AHDB, "Why use red clover?" (via WebSearch synthesis); alternative estimate from Feedipedia (Trifolium pratense)
+    confidence: Medium
+
+bloat_risk:
+    value: "may cause bloat in livestock; risk depends on intake level and plant maturity stage at grazing"
+    units: qualitative
+    source: Feedipedia (Trifolium pratense)
+    confidence: Medium
+
+cultivar_specific_note:
+    value: "no data specific to the MILVUS cultivar (as distinct from red clover generally, or from the ALTASWEDE variety also in this mix) was found in this research pass - all figures above are species-level (Trifolium pratense)"
+    units: qualitative
+    source: N/A
+    confidence: N/A

@@ -1,0 +1,52 @@
+common_name: Sheep's Parsley (forage herb, no named variety)
+
+latin_name: "Petroselinum crispum (agricultural forage form of true parsley; also referred to as Petroselinum sativum by some seed merchants)"
+
+ley_mix_inclusion:
+    percent_by_weight: 0.8
+    kg_per_acre: 0.100
+    source: user-supplied herbal ley mix composition (not independently verified)
+    confidence: N/A
+
+palatability:
+    value: "very palatable forage herb"
+    units: qualitative
+    source: cross-referenced UK forage-herb seed merchant literature (via WebSearch synthesis - Hurrells Seeds, Shepherd Seeds, Watson Seeds, Boston Seeds all describe it similarly)
+    confidence: Medium
+
+mineral_and_vitamin_content:
+    value: "high in vitamins and minerals, especially iron and vitamin C (also cited elsewhere as vitamin A); deep rooting lifts these nutrients from deep in the soil profile"
+    units: qualitative (no specific quantitative figures found)
+    source: cross-referenced UK forage-herb seed merchant literature (via WebSearch synthesis)
+    confidence: Low
+
+fertility_benefit_claim:
+    value: "claimed to help address livestock breeding/fertility problems, attributed to its mineral and vitamin content - this is a seed-merchant marketing claim seen across several UK herb-seed suppliers, not a peer-reviewed finding; treat as a plausible but unverified claim"
+    units: qualitative
+    source: cross-referenced UK forage-herb seed merchant literature (via WebSearch synthesis)
+    confidence: Low
+    note: no peer-reviewed source for this specific fertility claim was found or checked in this research pass - it appears consistently across commercial seed-merchant sites, which may indicate shared marketing copy rather than independent verification
+
+companion_planting_convention:
+    value: "commonly sown together with ribgrass (plantain), yarrow, and burnet to increase pasture diversity and mineral uptake - this exact combination of herbs appears together in this ley mix as well, matching standard UK herbal-ley practice"
+    units: qualitative
+    source: cross-referenced UK forage-herb seed merchant literature (via WebSearch synthesis)
+    confidence: Medium
+
+grazing_management:
+    value: "does not tolerate heavy/continuous grazing well; rotational grazing is recommended to avoid damaging the stand"
+    units: qualitative
+    source: cross-referenced UK forage-herb seed merchant literature (via WebSearch synthesis)
+    confidence: Medium
+
+winter_hardiness:
+    value: "winter hardy and easy to establish"
+    units: qualitative
+    source: cross-referenced UK forage-herb seed merchant literature (via WebSearch synthesis)
+    confidence: Low
+
+crude_protein:
+    value: unstated
+    units: "%"
+    source: not found in this research pass - this is a minor/low-inclusion-rate herb component with limited independently-published agronomic data compared to the grasses/legumes in this mix
+    confidence: N/A

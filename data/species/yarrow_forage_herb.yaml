@@ -1,0 +1,52 @@
+common_name: Yarrow (forage herb, no named variety)
+
+latin_name: Achillea millefolium
+
+ley_mix_inclusion:
+    percent_by_weight: 0.4
+    kg_per_acre: 0.050
+    source: user-supplied herbal ley mix composition (not independently verified)
+    confidence: N/A
+    note: smallest single component of this ley mix by weight
+
+drought_tolerance_and_rooting:
+    value: "deep roots confer drought resistance and help combat soil erosion"
+    units: qualitative
+    source: cross-referenced rangeland/forage literature (USDA Forest Service Fire Effects Information System, via WebSearch synthesis)
+    confidence: Medium
+
+mineral_content:
+    value: "leaves are rich in minerals, helping compensate for potential mineral deficiencies in grazing livestock - a stated rationale for including it in a diversity/trace-element herb group alongside sheep's parsley, burnet, and ribgrass"
+    units: qualitative (no specific quantitative mineral figures found)
+    source: cross-referenced rangeland/forage literature; Cotswold Seeds "Yarrow Forage Herb" product page
+    confidence: Medium
+
+palatability_by_livestock_species:
+    value: "IMPORTANT NUANCE: palatability varies substantially by livestock species. Cattle and horses generally do not readily graze common yarrow (average summer utilisation cited around 20%), whereas domestic sheep and goats make notably better use of it (average summer utilisation cited around 40%). Wild bighorn sheep, pronghorn and deer may also use it. This directly matters for this ALDER project's English Longhorn cattle context - yarrow should not be assumed to be a preferred cattle forage on the strength of its inclusion in this mix"
+    units: qualitative
+    source: USDA Forest Service Fire Effects Information System (FEIS), Achillea millefolium species review
+    confidence: Medium
+
+chemical_composition:
+    value: "contains essential oil, flavonoids, coumarin, sesquiterpene lactones, polyacetylenes, triterpenes, tannins, sterols, and organic acids; contains volatile oils, alkaloids and glycosides, but is not generally considered toxic to livestock, partly because it is so infrequently consumed in bulk"
+    units: qualitative
+    source: cross-referenced rangeland/forage literature (USDA Forest Service Fire Effects Information System, via WebSearch synthesis)
+    confidence: Medium
+
+management_note:
+    value: "produces extremely small seed (millions of seeds per kg) and can become invasive within a sward if not grazed/managed regularly"
+    units: qualitative
+    source: Cotswold Seeds, "Yarrow Forage Herb (Achillea millefolium)" product page
+    confidence: Medium
+
+companion_planting_convention:
+    value: "commonly sown together with sheep's parsley, burnet, and ribgrass (plantain) to increase pasture diversity and lift trace elements from deep in the soil profile - this exact four-herb combination appears together in this ley mix, strongly matching standard UK herbal-ley seed-merchant practice (the wording matches near-verbatim across the Cotswold Seeds pages for all four herbs)"
+    units: qualitative
+    source: Cotswold Seeds product pages for yarrow, burnet, and sheep's parsley
+    confidence: Medium
+
+crude_protein:
+    value: unstated
+    units: "%"
+    source: not found in this research pass
+    confidence: N/A

@@ -1,0 +1,55 @@
+common_name: Sweet Clover (commercial seed, no named variety or species specified)
+
+latin_name: "Melilotus sp. - likely Melilotus officinalis (yellow) or Melilotus albus (white); the mix specification does not distinguish which, and this matters (see note)"
+
+ley_mix_inclusion:
+    percent_by_weight: 0.8
+    kg_per_acre: 0.100
+    source: user-supplied herbal ley mix composition (not independently verified)
+    confidence: N/A
+
+species_ambiguity_note:
+    value: "the ley mix table only says 'commercial sweet clover' without specifying yellow (M. officinalis) or white (M. albus) sweet clover, or a named variety - the two species are agronomically similar (both biennial, drought-tolerant, coumarin-containing) but not identical (differ somewhat in height, flowering time, and soil preference). Data below is compiled at the Melilotus genus/officinalis level and should be treated as approximate for whichever species was actually supplied."
+    units: qualitative
+    source: N/A
+    confidence: N/A
+
+crude_protein:
+    value_min: 19
+    value_max: 21
+    units: "% (young plants ~21%, declining to ~19% at hay stage; quality highest if cut at bud stage - becomes stemmy/low-quality if left to full bloom)"
+    source: Mississippi State University Extension, "Yellow Sweetclover (Melilotus officinalis)"
+    confidence: Medium
+
+nitrogen_fixation:
+    value: "properly inoculated and nodulated sweetclover will not require added nitrogen fertiliser"
+    units: qualitative (no specific kg N/ha/yr figure found)
+    source: Mississippi State University Extension, "Yellow Sweetclover (Melilotus officinalis)"
+    confidence: Low
+    note: unlike red/white clover and lucerne, no precise kg N/ha/yr figure was found for sweet clover in this research pass
+
+drought_tolerance:
+    value: "the most drought-tolerant of the commercially available forage legumes; an extensive deep taproot system confers strong resistance to summer drought; also winter-hardy"
+    units: qualitative
+    source: cross-referenced forage-legume literature (via WebSearch synthesis); corroborated by Mississippi State University Extension
+    confidence: Medium
+
+yield:
+    value_min: 1.5
+    value_max: 2.5
+    units: "tons/acre (~3.4-5.6 t/ha), most production occurring May-August"
+    source: Mississippi State University Extension, "Yellow Sweetclover (Melilotus officinalis)"
+    confidence: Medium
+
+persistence:
+    value: "biennial - persists for two growing seasons only, then dies; second-year production can be reduced by ~25% with late first-year seeding, and close/hard grazing in the first year markedly reduces second-year production"
+    units: qualitative
+    source: Mississippi State University Extension, "Yellow Sweetclover (Melilotus officinalis)"
+    confidence: Medium
+
+toxicity_and_safety_warning:
+    value: "IMPORTANT SAFETY FLAG: contains coumarin, present in large quantities in unimproved/wild-type varieties. When sweet clover hay or silage is spoiled or heats during storage, coumarin can convert to dicoumarol, a potent anticoagulant toxin causing 'sweet clover disease' - reduced blood-clotting ability, internal bleeding, and death from minor wounds in livestock. Low-coumarin cultivars exist and should be used for any forage/hay application; whether the commercial seed in this specific ley mix is a low-coumarin cultivar is unstated and should be verified before feeding hay made from this ley to livestock, especially if stored long-term or allowed to spoil/mould"
+    units: qualitative
+    source: Mississippi State University Extension, "Yellow Sweetclover (Melilotus officinalis)"; corroborated by general Melilotus toxicology literature
+    confidence: Medium
+    note: this is a genuine, serious animal-health hazard specifically tied to storage/spoilage conditions, not a minor caveat - treat as a real design constraint if this ley's sweet clover component will be conserved as hay/silage rather than only grazed fresh

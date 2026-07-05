@@ -1,0 +1,57 @@
+common_name: "Chicory (PUNA / ENDURE blend - likely including or related to the established 'Puna II' forage chicory cultivar)"
+
+latin_name: Cichorium intybus
+
+ley_mix_inclusion:
+    percent_by_weight: 3.9
+    kg_per_acre: 0.500
+    source: user-supplied herbal ley mix composition (not independently verified)
+    confidence: N/A
+
+crude_protein:
+    value_min: 14
+    value_max: 24
+    units: "% DM (leaves)"
+    value_range_note: "roots much lower at 4.65% +/- 0.25%; seeds higher at >19% DM"
+    source: peer-reviewed review, "Chemical Composition and Nutritive Benefits of Chicory (Cichorium intybus)" (PMC5745685)
+    confidence: High
+
+metabolisable_energy:
+    value_min: 11.5
+    value_max: 13.0
+    units: MJ/kg DM
+    value_range_note: "one cited study gives an ME of 13.7 MJ/kg DM for the herb specifically"
+    source: peer-reviewed review, "Chemical Composition and Nutritive Benefits of Chicory (Cichorium intybus)" (PMC5745685)
+    confidence: High
+
+digestibility:
+    value_min: 72
+    value_max: 83
+    units: "%"
+    source: peer-reviewed review, "Chemical Composition and Nutritive Benefits of Chicory (Cichorium intybus)" (PMC5745685)
+    confidence: High
+
+mineral_content_leaves_per_100g:
+    value: "calcium 292.61mg (+/-13.35); potassium 166.57mg (+/-3.43); iron 9.178mg (+/-0.85); zinc 0.91mg (+/-0.03)"
+    units: mg per 100g fresh leaf
+    value_range_note: "roots are notably lower in all these minerals (Ca 181.26mg, K 103.7mg, Fe 1.77mg, Zn 0.39mg per 100g) - the leaf is the nutritionally/mineral-rich part"
+    source: peer-reviewed review, "Chemical Composition and Nutritive Benefits of Chicory (Cichorium intybus)" (PMC5745685)
+    confidence: High
+
+anthelmintic_properties:
+    value: "contains sesquiterpene lactones with demonstrated direct anthelmintic (anti-parasitic) activity - a chicory extract at 50mg/ml concentration killed all Haemonchus contortus worms within 4 hours in vitro; feeding diets of >=70% chicory DM significantly reduces worm burdens and faecal egg counts in grazing ruminants in vivo"
+    units: qualitative
+    source: peer-reviewed review, "Chemical Composition and Nutritive Benefits of Chicory (Cichorium intybus)" (PMC5745685); corroborated by multiple other peer-reviewed sources found in this research pass (Springer Parasites & Vectors review; ScienceDirect Cooperia oncophora study)
+    confidence: High
+
+drought_tolerance_and_rooting:
+    value: "perennial taproot broadleaf herb with deep rooting habit; thrives at a minimum annual rainfall of ~600mm and tolerates low soil pH - moderate-to-good drought adaptation for a broadleaf forage herb"
+    units: qualitative
+    source: peer-reviewed review, "Chemical Composition and Nutritive Benefits of Chicory (Cichorium intybus)" (PMC5745685)
+    confidence: Medium
+
+cultivar_note:
+    value: "'Puna II' is a specifically named, established forage chicory cultivar referenced in agricultural research literature - the mix's 'PUNA' component likely refers to this or a related cultivar; 'ENDURE' was not independently identified as a separately documented named cultivar in this research pass"
+    units: qualitative
+    source: cross-referenced forage chicory literature (via WebSearch synthesis)
+    confidence: Low

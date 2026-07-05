@@ -1,0 +1,51 @@
+common_name: Perennial Ryegrass, tetraploid (cv. CALIBRA)
+
+latin_name: Lolium perenne
+
+ploidy: tetraploid
+
+ley_mix_inclusion:
+    percent_by_weight: 9.2
+    kg_per_acre: 1.200
+    source: user-supplied herbal ley mix composition (not independently verified)
+    confidence: N/A
+
+crude_protein:
+    value_min: 16
+    value_max: 25
+    units: "% DM (grazed, leafy growth - species-level range, not distinctly different from diploid on protein per Germinal GB source)"
+    source: Germinal GB, "What's the Nutritional Value of Grass?"
+    confidence: Medium
+
+metabolisable_energy:
+    value: 11.7
+    units: MJ/kg DM
+    value_range_note: "rarely drops below 10 MJ/kg DM under good management (species-level figure)"
+    source: Germinal GB, "What's the Nutritional Value of Grass?"
+    confidence: Medium
+
+d_value:
+    value_min: 68.8
+    value_max: 81.5
+    units: "% (tetraploid cultivars in a diploid-vs-tetraploid comparison trial averaged slightly higher D-value than diploids across the season)"
+    source: comparative diploid/tetraploid perennial ryegrass trial (SciELO/Cien. Inv. Agr., 2009)
+    confidence: Medium
+
+dry_matter_content:
+    value_min: 15
+    value_max: 20
+    units: "% (tetraploid swards - lower DM% than diploid equivalents; animals need to eat roughly one-third more fresh grass by weight for equivalent DM intake)"
+    source: Germinal GB, "What's the Nutritional Value of Grass?"
+    confidence: Medium
+
+palatability_and_intake:
+    value: "tetraploid cells are larger with bigger leaves, generally considered more palatable to grazing cattle than diploid equivalents, and typically shows higher voluntary intake per grazing bout"
+    units: qualitative
+    source: cross-referenced pasture-management literature (pasture.io "All About Perennial Ryegrass" and comparative trial literature)
+    confidence: Low
+
+persistency_note:
+    value: "tetraploids are generally considered less persistent under continuous close/hard grazing than diploid perennial ryegrass, and have lower tiller density, though they compensate with larger tillers"
+    units: qualitative
+    source: cross-referenced comparative diploid/tetraploid ryegrass trial literature
+    confidence: Low

@@ -1,0 +1,66 @@
+common_name: Alsike Clover (cv. AURORA)
+
+latin_name: Trifolium hybridum
+
+ley_mix_inclusion:
+    percent_by_weight: 1.5
+    kg_per_acre: 0.200
+    source: user-supplied herbal ley mix composition (not independently verified)
+    confidence: N/A
+
+crude_protein:
+    value: 22
+    units: "% (vegetative state)"
+    source: Saskatchewan Forage Council (2007), Forage Factsheet - Alsike Clover
+    confidence: Medium
+
+digestibility:
+    value: 65
+    units: "% (vegetative state)"
+    source: Saskatchewan Forage Council (2007), Forage Factsheet - Alsike Clover
+    confidence: Medium
+
+nitrogen_fixation:
+    value_min: 67
+    value_max: 135
+    units: kg N/ha/year
+    value_range_note: "converted from a cited 60-120 lbs N/acre/year; requires inoculation with Rhizobium leguminosarum bv. trifolii for optimal fixation; fixation is impaired in acidic soils despite the plant's own acid tolerance"
+    source: cross-referenced forage-legume literature (via WebSearch synthesis)
+    confidence: Low
+
+flooding_and_wet_tolerance:
+    value: "can withstand at least five weeks of spring flooding and waterlogged soils; suited to cool, wet, slightly acidic loamy-to-clay soils - notably more wet-tolerant than red clover, which prefers well-drained ground"
+    units: qualitative
+    source: Saskatchewan Forage Council (2007), Forage Factsheet - Alsike Clover
+    confidence: Medium
+
+drought_tolerance:
+    value: does not tolerate drought
+    units: qualitative
+    source: Saskatchewan Forage Council (2007), Forage Factsheet - Alsike Clover
+    confidence: Medium
+
+soil_acidity_tolerance:
+    value: "tolerates soil pH as low as 6.0"
+    units: qualitative
+    source: Saskatchewan Forage Council (2007), Forage Factsheet - Alsike Clover
+    confidence: Medium
+
+longevity:
+    value: "1-5 years; grows mainly as a biennial in some contexts (Saskatchewan); reseeds itself readily"
+    units: qualitative
+    source: Saskatchewan Forage Council (2007), Forage Factsheet - Alsike Clover
+    confidence: Medium
+
+toxicity_and_safety_warning:
+    value: "IMPORTANT SAFETY FLAG: may cause bloat and photosensitization in livestock if grazed during the growing season (risk is specifically noted around full bloom, hence the recommendation to hay rather than graze at that stage); separately reported elsewhere as linked to toxicity in horses specifically - this should be checked carefully before including alsike clover in any grazing design involving horses"
+    units: qualitative
+    source: Saskatchewan Forage Council (2007), Forage Factsheet - Alsike Clover; horse-specific toxicity claim from cross-referenced forage-legume literature (via WebSearch synthesis, not independently verified against a veterinary source)
+    confidence: Medium
+    note: this is a genuine animal-safety consideration, not a minor caveat - verify against a veterinary/toxicology source before relying on it for any livestock-facing design
+
+winter_hardiness:
+    value: good
+    units: qualitative
+    source: Saskatchewan Forage Council (2007), Forage Factsheet - Alsike Clover
+    confidence: Medium

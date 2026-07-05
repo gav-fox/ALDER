@@ -1,0 +1,63 @@
+common_name: Birdsfoot Trefoil (cv. LEO)
+
+latin_name: Lotus corniculatus
+
+ley_mix_inclusion:
+    percent_by_weight: 1.9
+    kg_per_acre: 0.250
+    source: user-supplied herbal ley mix composition (not independently verified)
+    confidence: N/A
+
+crude_protein:
+    value: 21.1
+    units: "% DM (fresh forage, average)"
+    value_range_note: "hay average 19.2% DM; silage average 20.2% DM; a separate source cites crude protein at full bloom as low as ~9%, showing strong maturity-dependence"
+    source: Feedipedia (Lotus corniculatus)
+    confidence: High
+
+metabolisable_energy:
+    value: 9.8
+    units: MJ/kg DM (fresh forage)
+    value_range_note: "hay average 8.2 MJ/kg DM"
+    source: Feedipedia (Lotus corniculatus)
+    confidence: High
+
+organic_matter_digestibility:
+    value: 68.8
+    units: "% (fresh forage)"
+    source: Feedipedia (Lotus corniculatus)
+    confidence: High
+
+condensed_tannins:
+    value_min: 2
+    value_max: 55
+    units: g/kg DM
+    value_range_note: "highly variable across samples/conditions; tannins are mainly procyanidins, which reduce proteolytic rumen bacteria and protect protein from degradation, and are associated with reduced methane emissions and urinary N in dairy cattle"
+    source: Feedipedia (Lotus corniculatus)
+    confidence: High
+
+bloat_safety:
+    value: "does not cause bloat in ruminants, unlike most other forage legumes (white/red clover, lucerne) - a direct consequence of its condensed tannin content"
+    units: qualitative
+    source: Feedipedia (Lotus corniculatus)
+    confidence: High
+
+nitrogen_fixation:
+    value: "when making up more than 30% of a mixed stand, provides enough N to sustain companion grass growth"
+    units: qualitative (no precise kg N/ha/yr figure found)
+    source: Feedipedia (Lotus corniculatus)
+    confidence: Medium
+    note: unlike white/red clover and lucerne, no specific kg N/ha/yr figure was found for birdsfoot trefoil in this research pass
+
+drought_and_salinity_tolerance:
+    value: "some drought tolerance; can withstand soil salinity"
+    units: qualitative
+    source: Feedipedia (Lotus corniculatus)
+    confidence: Medium
+
+persistence_under_grazing:
+    value: "European cultivars (which LEO likely belongs to, though not independently confirmed) tend to be less persistent under heavy/continuous grazing because their basal regrowth buds are easily eaten by livestock; American 'Empire' type cultivars show better grazing persistence by contrast"
+    units: qualitative
+    source: Feedipedia (Lotus corniculatus)
+    confidence: Low
+    note: LEO's specific cultivar type (European vs. Empire-type breeding lineage) was not confirmed in this research pass

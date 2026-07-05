@@ -1,0 +1,61 @@
+common_name: Red Clover (cv. ALTASWEDE)
+
+latin_name: Trifolium pratense
+
+ley_mix_inclusion:
+    percent_by_weight: 1.5
+    kg_per_acre: 0.200
+    source: user-supplied herbal ley mix composition (not independently verified)
+    confidence: N/A
+
+crude_protein:
+    value: 19.7
+    units: "% DM (fresh forage, average - species-level figure)"
+    value_range_note: "SD 2.9, range 15.2-27.7% DM across 57 samples; hay average 18.3% DM"
+    source: Feedipedia (Trifolium pratense)
+    confidence: High
+
+metabolisable_energy:
+    value: 10.4
+    units: MJ/kg DM (fresh forage, species-level figure)
+    value_range_note: "hay average 9.5 MJ/kg DM"
+    source: Feedipedia (Trifolium pratense)
+    confidence: High
+
+organic_matter_digestibility:
+    value: 74.1
+    units: "% (fresh forage, species-level figure)"
+    source: Feedipedia (Trifolium pratense)
+    confidence: High
+
+nitrogen_fixation:
+    value_min: 150
+    value_max: 250
+    units: kg N/ha/year
+    value_range_note: "AHDB-cited species-level range; a separate Feedipedia estimate gives a lower figure of ~93 kg N/ha"
+    source: AHDB, "Why use red clover?" (via WebSearch synthesis); alternative estimate from Feedipedia (Trifolium pratense)
+    confidence: Medium
+
+bloat_risk:
+    value: "may cause bloat in livestock; risk depends on intake level and plant maturity stage at grazing"
+    units: qualitative
+    source: Feedipedia (Trifolium pratense)
+    confidence: Medium
+
+variety_origin_and_breeding:
+    value: "ALTASWEDE was selected by the University of Alberta, Canada, from Swedish seed stock, around 1919 - one of the older named red clover varieties still in commercial use"
+    units: qualitative
+    source: cross-referenced red clover variety literature (DLF Canada variety page; via WebSearch synthesis)
+    confidence: Medium
+
+flowering_time_and_yield:
+    value: "late-flowering variety, flowering approximately 10 days after early-flowering red clover varieties; yields around 10% less than early varieties but is more persistent as a stand"
+    units: qualitative
+    source: cross-referenced red clover variety literature (via WebSearch synthesis)
+    confidence: Medium
+
+persistence:
+    value: "notably more persistent than early-flowering red clover varieties - this is ALTASWEDE's main distinguishing trait, traded off against somewhat lower yield"
+    units: qualitative
+    source: cross-referenced red clover variety literature (via WebSearch synthesis)
+    confidence: Medium

@@ -1,0 +1,53 @@
+common_name: Festulolium (cv. LOFA)
+
+latin_name: "x Festulolium (hybrid genus, Festuca x Lolium); LOFA specifically is a tetraploid (4N) Festulolium pabulare, a Tall Fescue x Italian Ryegrass cross"
+
+ley_mix_inclusion:
+    percent_by_weight: 4.6
+    kg_per_acre: 0.600
+    source: user-supplied herbal ley mix composition (not independently verified)
+    confidence: N/A
+
+parentage:
+    value: "tetraploid Festulolium pabulare - cross of Tall Fescue (Festuca arundinacea) x Italian Ryegrass (Lolium multiflorum); inherits high forage quality/palatability from its Italian ryegrass parent, and improved summer growth/persistence/drought tolerance from its tall fescue parent"
+    units: qualitative
+    source: Quality Seeds (Progressive Dairy Canada / Ag Proud article on Festulolium varieties)
+    confidence: Medium
+
+dry_matter_yield:
+    value_min: 14
+    value_max: 18
+    units: t DM/ha/year
+    source: Cotswold Seeds, "Festulolium (Hybrid)" species page
+    confidence: Medium
+    note: figure given at the general festulolium-species level, not confirmed as LOFA-specific
+
+drought_tolerance:
+    value: "combines the drought/stress-resistant genes of fescue with the bulky yield habit of ryegrass; deeper root structure than pure ryegrass, aiding establishment on moisture-deficient ground; described elsewhere as offering 'high drought tolerance' with 'strong root system' allowing productivity in dry summer weather"
+    units: qualitative
+    source: Cotswold Seeds, "Festulolium (Hybrid)" species page; corroborated by Quality Seeds/Ag Proud article
+    confidence: Medium
+
+winter_hardiness:
+    value: good frost tolerance
+    units: qualitative
+    source: Cotswold Seeds, "Festulolium (Hybrid)" species page
+    confidence: Medium
+
+persistence:
+    value: "persistence depends heavily on parentage - varieties bred from short-term Italian ryegrass parents (as LOFA is) typically persist around 2-3 years; varieties bred with meadow fescue or perennial ryegrass parentage instead can persist considerably longer"
+    units: qualitative
+    source: Cotswold Seeds, "Festulolium (Hybrid)" species page
+    confidence: Medium
+
+sugar_and_energy_content:
+    value: "noted for being very high in sugar (water-soluble carbohydrate) content and digestible energy"
+    units: qualitative
+    source: Quality Seeds (Progressive Dairy Canada / Ag Proud article on Festulolium varieties)
+    confidence: Low
+
+crude_protein:
+    value: unstated
+    units: "%"
+    source: not found in this research pass - Cotswold Seeds' species page explicitly does not give a figure
+    confidence: N/A

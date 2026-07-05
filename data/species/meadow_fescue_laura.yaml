@@ -1,0 +1,51 @@
+common_name: Meadow Fescue (cv. LAURA)
+
+latin_name: "Festuca pratensis (syn. Schedonorus pratensis)"
+
+ley_mix_inclusion:
+    percent_by_weight: 3.1
+    kg_per_acre: 0.400
+    source: user-supplied herbal ley mix composition (not independently verified)
+    confidence: N/A
+
+palatability:
+    value: "highly palatable for both grazing and hay - more palatable than tall fescue, attributed to a softer leaf texture and lower silica content"
+    units: qualitative
+    source: Emorsgate Seeds (wildseed.co.uk) species page; cross-referenced with general forage-grass comparison literature
+    confidence: Medium
+
+soil_and_moisture_preference:
+    value: "most frequent on lowland moist, fertile, loamy or heavy soils; naturally found in neutral grasslands including grazed pastures, hay-meadows, water-meadows, and verges - some tolerance of wet/heavy ground is implied by this habitat association, though a specific flood-duration figure (as exists for tall fescue) was not found"
+    units: qualitative
+    source: Emorsgate Seeds (wildseed.co.uk) species page
+    confidence: Medium
+
+seasonal_growth:
+    value: "produces growth in winter and early spring, ahead of many other pasture grasses"
+    units: qualitative
+    source: Emorsgate Seeds (wildseed.co.uk) species page
+    confidence: Medium
+
+persistence:
+    value: "not a particularly long-lived grass; persists less well under continuous grazing or neglected/rank grassland management; performs best in a hay-meadow regime where seed is allowed to ripen and regenerate into open sward gaps"
+    units: qualitative
+    source: Emorsgate Seeds (wildseed.co.uk) species page
+    confidence: Medium
+
+competitiveness:
+    value: "moderately competitive - less vigorous and less responsive to nitrogen than perennial ryegrass"
+    units: qualitative
+    source: Emorsgate Seeds (wildseed.co.uk) species page
+    confidence: Medium
+
+growth_habit:
+    value: "tall, loosely-tufted perennial grass; flowering stems reaching up to 120cm"
+    units: qualitative
+    source: Emorsgate Seeds (wildseed.co.uk) species page
+    confidence: Medium
+
+crude_protein:
+    value: unstated
+    units: "%"
+    source: not found in this research pass (general sources describe meadow fescue as having "high protein content" without a specific figure)
+    confidence: N/A

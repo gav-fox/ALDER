@@ -1,0 +1,46 @@
+common_name: Burnet (forage herb, no named variety)
+
+latin_name: Sanguisorba minor
+
+ley_mix_inclusion:
+    percent_by_weight: 4.6
+    kg_per_acre: 0.600
+    source: user-supplied herbal ley mix composition (not independently verified)
+    confidence: N/A
+
+growth_habit:
+    value: "perennial herb, erect stems 20-50cm tall, pinnately compound basal leaves (12-17 leaflets), small greenish flowers May-August"
+    units: qualitative
+    source: cross-referenced botanical literature (via WebSearch synthesis)
+    confidence: Medium
+
+drought_tolerance:
+    value: "notably drought-tolerant via a deep taproot extending over 40cm, which stores water and maintains plant moisture under drought stress; in one southern-England drought event, maintained higher relative water content than 30 associated companion species"
+    units: qualitative
+    source: cross-referenced botanical/rangeland literature (via WebSearch synthesis, citing a comparative drought study)
+    confidence: Medium
+
+nutritional_value:
+    value: "high in protein, carotene, and minerals; rich forage particularly valued for sheep, and also grazed by deer/rabbits in wild-forage contexts; stays green and palatable throughout the growing season and into winter, unlike many pasture species that senesce"
+    units: qualitative (no specific crude protein % figure found)
+    source: cross-referenced forage/rangeland literature (via WebSearch synthesis)
+    confidence: Medium
+    note: no precise crude protein percentage was found in this research pass, despite multiple sources describing it qualitatively as "high in protein"
+
+companion_planting_convention:
+    value: "commonly sown as a companion to sheep's parsley, yarrow, and ribgrass (plantain) specifically to increase pasture diversity and lift trace minerals from deep in the soil profile - this exact combination of herbs (burnet + sheep's parsley + yarrow + ribgrass) appears together in this ley mix as well, matching standard UK herbal-ley practice"
+    units: qualitative
+    source: Cotswold Seeds, "Burnet Forage Herb (Sanguisorba minor)" product page
+    confidence: Medium
+
+recommended_use:
+    value: "not recommended to be sown as a pure stand; instead used as a healthy diversity component within a mixed grazing sward. Offers high grazing quality across a long season. Persistence and cutting-suitability are only moderate (visual ratings, not numeric scores, given by the seed merchant)"
+    units: qualitative
+    source: Cotswold Seeds, "Burnet Forage Herb (Sanguisorba minor)" product page
+    confidence: Medium
+
+tannins:
+    value: "contains variable levels of flavonoids, phenolics, tannins and anthocyanins depending on plant fraction, though no specific quantitative figure or comparison to sainfoin/birdsfoot trefoil's tannin levels was found"
+    units: qualitative
+    source: cross-referenced phytochemical literature (via WebSearch synthesis)
+    confidence: Low

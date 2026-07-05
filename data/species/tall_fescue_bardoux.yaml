@@ -1,0 +1,54 @@
+common_name: Tall Fescue (cv. BARDOUX)
+
+latin_name: Festuca arundinacea
+
+ley_mix_inclusion:
+    percent_by_weight: 10.8
+    kg_per_acre: 1.400
+    source: user-supplied herbal ley mix composition (not independently verified)
+    confidence: N/A
+
+crude_protein:
+    value_min: 9
+    value_max: 12
+    units: "% (mid-summer)"
+    source: Saskatchewan Forage Council (2007), Forage Factsheet - Tall Fescue
+    confidence: Medium
+
+total_digestible_nutrients:
+    value: 59
+    units: "% (average)"
+    source: Saskatchewan Forage Council (2007), Forage Factsheet - Tall Fescue
+    confidence: Medium
+
+stand_longevity:
+    value_min: 5
+    value_max: 10
+    units: years
+    source: Saskatchewan Forage Council (2007), Forage Factsheet - Tall Fescue
+    confidence: Medium
+
+drought_tolerance:
+    value: "moderately drought tolerant once established; deep-rooted, contributes large quantities of organic matter to soil; reduced persistence on very dry (Brown/Dark Brown zone) soils"
+    units: qualitative
+    source: Saskatchewan Forage Council (2007), Forage Factsheet - Tall Fescue
+    confidence: Medium
+
+soil_adaptation:
+    value: "tolerates soil pH as low as 5.0; very good salinity tolerance; withstands 2-5 weeks of spring flooding; thrives on wet/poorly-drained sites; adapted to moist loamy-to-clay soils, grows on dry soils but with reduced persistence"
+    units: qualitative
+    source: Saskatchewan Forage Council (2007), Forage Factsheet - Tall Fescue
+    confidence: Medium
+
+palatability_and_endophyte_risk:
+    value: "good palatability if grazed early/young; becomes coarse and less palatable with maturity; wild-type tall fescue can carry Neotyphodium/Epichloë endophyte and alkaloids causing 'fescue foot' and reduced intake/performance in livestock - risk is greatly reduced or eliminated in certified low-alkaloid/endophyte-free varieties, but the endophyte status of the BARDOUX cultivar specifically was not confirmed in this research pass"
+    units: qualitative
+    source: Saskatchewan Forage Council (2007), Forage Factsheet - Tall Fescue
+    confidence: Low
+    note: endophyte status is cultivar-specific and matters a great deal for livestock safety; flagged as unstated for BARDOUX specifically - verify before use in a grazing design
+
+establishment_and_regrowth:
+    value: "slow-establishing (needs a full year before first use); slow regrowth after defoliation with few leaves per tiller - after early-summer grazing, significant regrowth may not occur until fall"
+    units: qualitative
+    source: Saskatchewan Forage Council (2007), Forage Factsheet - Tall Fescue
+    confidence: Medium

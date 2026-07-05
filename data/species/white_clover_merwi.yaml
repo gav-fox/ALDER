@@ -1,0 +1,49 @@
+common_name: White Clover (cv. MERWI)
+
+latin_name: Trifolium repens
+
+ley_mix_inclusion:
+    percent_by_weight: 3.9
+    kg_per_acre: 0.500
+    source: user-supplied herbal ley mix composition (not independently verified)
+    confidence: N/A
+
+nitrogen_fixation:
+    value: 180
+    units: kg N/ha/year
+    value_range_note: "figure given for a well-balanced grass/clover sward at 20-30% clover content; a separate study found unfertilised annual N2 fixation of 111 kg N/ha, dropping to 47 kg N/ha under high synthetic N fertiliser rates - fixation is actively suppressed by fertiliser N, not additive with it"
+    source: AHDB, "Why use white clover?"
+    confidence: High
+
+crude_protein:
+    value_min: 20
+    value_max: 25
+    units: "% DM (vegetative to bloom growth stage; declines with maturity)"
+    value_range_note: "AHDB notes silage crude protein rises by ~1 percentage point for every 10% increase in clover content within a grass/clover sward"
+    source: cross-referenced forage nutrition literature (via WebSearch synthesis) and AHDB, "Why use white clover?"
+    confidence: Medium
+
+palatability_and_intake:
+    value: "strongly preferred by livestock over grass - given equal access, animals may consume 20-30% more white clover than grass by weight, which increases liveweight gain and milk production"
+    units: qualitative
+    source: AHDB, "Why use white clover?"
+    confidence: High
+
+seasonal_growth:
+    value: "begins active growth at a soil temperature of 8C, compared to 5C for grass - grows later into spring onset than grasses but can extend the productive season when timed against a sward's overall growth curve"
+    units: qualitative
+    source: AHDB, "Why use white clover?"
+    confidence: High
+
+bloat_risk:
+    value: unstated
+    units: qualitative
+    source: not found in the AHDB source used; white clover is well known in general ruminant-nutrition literature as a legume that can cause bloat when grazed as a high proportion of the diet (unlike tannin-containing legumes such as sainfoin or birdsfoot trefoil), but no ALDER-specific citation was confirmed in this research pass
+    confidence: Low
+    note: worth independently verifying bloat-risk specifics before using this species in a grazing-safety calculation
+
+persistence_and_drought_tolerance:
+    value: unstated
+    units: qualitative
+    source: not found in the AHDB source used in this research pass
+    confidence: N/A

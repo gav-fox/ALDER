@@ -1,0 +1,58 @@
+common_name: Perennial Ryegrass, diploid (cv. OAKPARK)
+
+latin_name: Lolium perenne
+
+ploidy: diploid
+
+ley_mix_inclusion:
+    percent_by_weight: 10.8
+    kg_per_acre: 1.400
+    source: user-supplied herbal ley mix composition (not independently verified)
+    confidence: N/A
+
+crude_protein:
+    value_min: 16
+    value_max: 25
+    units: "% DM (grazed, leafy growth)"
+    source: Germinal GB, "What's the Nutritional Value of Grass?"
+    confidence: Medium
+
+metabolisable_energy:
+    value: 11.7
+    units: MJ/kg DM
+    value_range_note: "rarely drops below 10 MJ/kg DM under good management"
+    source: Germinal GB, "What's the Nutritional Value of Grass?"
+    confidence: Medium
+
+d_value:
+    value: 73
+    units: "% (average); leading varieties reach 75-80%"
+    source: Germinal GB, "What's the Nutritional Value of Grass?"
+    confidence: Medium
+
+water_soluble_carbohydrate:
+    value_min: 10
+    value_max: 35
+    units: "% DM (seasonal range, weather-dependent)"
+    source: Germinal GB, "What's the Nutritional Value of Grass?"
+    confidence: Medium
+
+dry_matter_content:
+    value_min: 18
+    value_max: 26
+    units: "% (diploid swards - higher DM% than tetraploid equivalents)"
+    source: Germinal GB, "What's the Nutritional Value of Grass?"
+    confidence: Medium
+
+yield:
+    value: 11
+    units: "t DM/ha/year (top-ranked varieties, approximate threshold)"
+    source: Germinal GB, "What's the Nutritional Value of Grass?"
+    confidence: Low
+    note: this is a general top-variety benchmark, not confirmed specifically for OAKPARK
+
+ploidy_note:
+    value: "diploid swards have a higher tiller density and higher DM% than tetraploid equivalents; generally considered more persistent under close/hard grazing than tetraploids, though tetraploids tend to have better palatability and intake characteristics per bite"
+    units: qualitative
+    source: cross-referenced from Germinal GB and comparative diploid/tetraploid ryegrass trial literature (SciELO, 2009 study cited in search but not independently fetched)
+    confidence: Low

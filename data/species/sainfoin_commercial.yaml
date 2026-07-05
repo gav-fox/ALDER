@@ -1,0 +1,69 @@
+common_name: Sainfoin (commercial seed, no named variety)
+
+latin_name: Onobrychis viciifolia
+
+ley_mix_inclusion:
+    percent_by_weight: 18.1
+    kg_per_acre: 2.350
+    source: user-supplied herbal ley mix composition (not independently verified)
+    confidence: N/A
+    note: by far the largest single component of this ley mix by weight
+
+crude_protein:
+    value: 16.9
+    units: "% DM (fresh forage)"
+    value_range_note: "SD 2.7; range 12.4-21.3% DM fresh; hay 15.2% DM (range 9.0-22.1%); noted elsewhere as having lower N content than lucerne despite its high nutritive value"
+    source: Feedipedia (Onobrychis viciifolia)
+    confidence: High
+
+metabolisable_energy:
+    value: 10.1
+    units: MJ/kg DM (fresh forage)
+    value_range_note: "hay 8.9 MJ/kg DM"
+    source: Feedipedia (Onobrychis viciifolia)
+    confidence: High
+
+organic_matter_digestibility:
+    value: 69.4
+    units: "% (fresh forage, SD 5.2)"
+    source: Feedipedia (Onobrychis viciifolia)
+    confidence: High
+
+condensed_tannins:
+    value: 30.0
+    units: g/kg DM (fresh forage)
+    value_range_note: "hay 54.6 g/kg DM, range 6.0-111.3 g/kg DM; overall tannin concentration cited elsewhere as 4-10% of DM"
+    source: Feedipedia (Onobrychis viciifolia)
+    confidence: High
+
+nitrogen_fixation:
+    value: 65
+    units: kg N/ha/year
+    value_alternative: "130-160 kg N/ha/year cited in a separate comparative source as similar to lucerne/alfalfa's 140-160 kg N/ha/year"
+    source: "primary figure: general legume N-fixation review (via WebSearch synthesis, precise citation not independently confirmed); alternative figure: comparative legume N-fixation source citing similarity to alfalfa"
+    confidence: Low
+    note: "genuine discrepancy between two secondary sources found in this research pass, kept side by side per the vault's disagreement-recording convention rather than picking one; N-fixation for any legume is highly dependent on rhizobial strain, soil, climate and management, and literature broadly ranges legume N-fixation from 15-325 kg N/ha/yr depending on species/conditions"
+
+bloat_safety:
+    value: "does not cause bloat, due to its condensed tannin content; as little as 20% sainfoin in a mixed-sward diet can reduce bloat risk to virtually zero - a notable safety advantage over bloat-prone legumes like pure white/red clover or lucerne stands"
+    units: qualitative
+    source: Soil Association, "Benefits of 'holy hay' - sainfoin"
+    confidence: Medium
+
+anthelmintic_properties:
+    value: "condensed tannins provide anthelmintic (anti-parasitic) activity, disrupting the internal parasite life cycle when fed to livestock - independently corroborated by in vitro/in vivo nematode studies (e.g. effects against Ostertagia ostertagi and Cooperia oncophora in calves)"
+    units: qualitative
+    source: Soil Association, "Benefits of 'holy hay' - sainfoin"; corroborated by peer-reviewed anti-parasitic activity studies found via search (PMC)
+    confidence: Medium
+
+drought_tolerance:
+    value: "extremely drought-tolerant due to deep tap-roots reaching into the subsoil; can be grown on thin, highly alkaline soils where other forage crops struggle; also noted as cold-tolerant"
+    units: qualitative
+    source: Soil Association, "Benefits of 'holy hay' - sainfoin"; corroborated by Feedipedia (Onobrychis viciifolia)
+    confidence: Medium
+
+stand_persistence:
+    value: "sainfoin leys typically last four years or more, sometimes considerably longer"
+    units: qualitative
+    source: Soil Association, "Benefits of 'holy hay' - sainfoin"
+    confidence: Medium

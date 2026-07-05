@@ -1,0 +1,54 @@
+common_name: Cocksfoot (cv. DONATA)
+
+latin_name: Dactylis glomerata
+
+ley_mix_inclusion:
+    percent_by_weight: 12.3
+    kg_per_acre: 1.600
+    source: user-supplied herbal ley mix composition (not independently verified)
+    confidence: N/A
+
+crude_protein:
+    value: 16.3
+    units: "% DM"
+    value_range_note: "9.8-24.9% DM across 79 sampled fresh-forage sources; declines to <10% at late flowering, rises to ~25% in young growth"
+    source: Feedipedia (Dactylis glomerata)
+    confidence: High
+
+metabolisable_energy:
+    value: 9.5
+    units: MJ/kg DM
+    value_range_note: "7.1-11.4 MJ/kg DM across Western European samples (fresh forage)"
+    source: Feedipedia (Dactylis glomerata)
+    confidence: High
+
+organic_matter_digestibility:
+    value: 69.4
+    units: "% (fresh forage)"
+    source: Feedipedia (Dactylis glomerata)
+    confidence: High
+
+dry_matter_yield:
+    value_min: 5
+    value_max: 13.5
+    units: t DM/ha/year (hay; lower bound unfertilised, upper bound with adequate fertiliser)
+    source: Feedipedia (Dactylis glomerata)
+    confidence: Medium
+
+stand_persistence:
+    value: "4-8 years under proper management"
+    units: qualitative
+    source: Feedipedia (Dactylis glomerata)
+    confidence: Medium
+
+drought_and_stress_tolerance:
+    value: "more tolerant of drought, pasture pests, and acid/less-fertile soils than perennial ryegrass; stays green later into summer than most other pasture grasses; also shade-tolerant"
+    units: qualitative
+    source: Shepherd Seeds (UK) grazing-ley guide; corroborated by Feedipedia
+    confidence: Medium
+
+palatability:
+    value: "lower palatability than ryegrass, especially when grown as a dominant/pure stand rather than in a mixed sward"
+    units: qualitative
+    source: Feedipedia (Dactylis glomerata)
+    confidence: Medium
