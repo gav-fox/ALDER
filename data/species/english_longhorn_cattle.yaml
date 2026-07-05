@@ -1,0 +1,135 @@
+common_name: English Longhorn
+
+latin_name: Bos taurus
+
+breed: English Longhorn
+
+mature_liveweight_bulls:
+    value_min: 1000
+    value_max: 1200
+    units: kg
+    source: Longhorn Cattle Society official breed standard (Jan 2022)
+    confidence: High
+
+mature_liveweight_females:
+    value_min: 650
+    value_max: 850
+    units: kg
+    source: Longhorn Cattle Society official breed standard (Jan 2022)
+    confidence: High
+
+mature_liveweight_cows_alt:
+    value: 750
+    units: kg
+    source: RBST (Rare Breeds Survival Trust) breed page
+    confidence: High
+    note: consistent with (falls inside) the official breed standard's 650-850kg female range above; not a real conflict
+
+mature_liveweight_cows_alt_lower:
+    value_min: 500
+    value_max: 600
+    units: kg
+    source: Wikipedia (English Longhorn article; mirrored uncritically on The Cattle Site and ROYS FARM)
+    confidence: Low
+    note: attributed by Wikipedia to "the breed standard" but does not match the verified official 2022 PDF; likely outdated or mis-attributed; kept per ALDER's disagreement-recording convention rather than discarded
+
+mature_liveweight_bulls_alt_lower:
+    value: 1000
+    value_range_note: "usually 750-900, max over 1000"
+    units: kg
+    source: Wikipedia (English Longhorn article; mirrored uncritically on The Cattle Site and ROYS FARM)
+    confidence: Low
+    note: same caveat as mature_liveweight_cows_alt_lower
+
+mature_height_withers_bulls:
+    value_min: 145
+    value_max: 155
+    units: cm
+    source: Longhorn Cattle Society official breed standard (Jan 2022)
+    confidence: High
+
+mature_height_withers_females:
+    value_min: 135
+    value_max: 145
+    units: cm
+    source: Longhorn Cattle Society official breed standard (Jan 2022)
+    confidence: High
+
+day_400_weight_bulls:
+    value_min: 450
+    value_max: 550
+    units: kg
+    source: Longhorn Cattle Society official breed standard (Jan 2022)
+    confidence: High
+
+day_400_weight_females:
+    value_min: 360
+    value_max: 460
+    units: kg
+    source: Longhorn Cattle Society official breed standard (Jan 2022)
+    confidence: High
+
+birth_weight_bulls:
+    value_min: 35
+    value_max: 45
+    units: kg
+    source: Longhorn Cattle Society official breed standard (Jan 2022)
+    confidence: High
+
+birth_weight_females:
+    value_min: 30
+    value_max: 40
+    units: kg
+    source: Longhorn Cattle Society official breed standard (Jan 2022)
+    confidence: High
+
+dry_matter_intake_dry_cows:
+    value: 1.5
+    units: "% bodyweight/day"
+    source: AHDB rotational grazing DMI guide (general cattle, not breed-specific)
+    confidence: High
+
+dry_matter_intake_lactating_cows:
+    value_min: 2
+    value_max: 2.5
+    units: "% bodyweight/day"
+    source: AHDB rotational grazing DMI guide (general cattle, not breed-specific)
+    confidence: High
+
+dry_matter_intake_growing_finishing:
+    value_min: 2.5
+    value_max: 3
+    units: "% bodyweight/day (100-600kg liveweight range)"
+    source: AHDB rotational grazing DMI guide (general cattle, not breed-specific)
+    confidence: High
+
+cattle_palatability_for_willow_scrub:
+    value: favoured
+    units: qualitative
+    source: Knepp Wildland Longhorn cattle page
+    confidence: Medium
+    note: attributed to salicylic acid content of willow leaves; species ID of Knepp's "sallow" scrub not confirmed as Salix caprea specifically
+
+browsing_behaviour:
+    value: "effective grazer and browser; controls Alder, Birch, Buckthorn, Hawthorn, Creeping Willow (Salix repens); uses horns to pull down branches, pollarding/coppicing effect"
+    units: qualitative
+    source: RBST breed page; Knepp Wildland Longhorn cattle page
+    confidence: High
+
+temperament:
+    value: docile, responds well to gentle handling
+    units: qualitative
+    source: RBST breed page
+    confidence: High
+
+hardiness:
+    value: hardy, adaptable, suited to extensive conservation grazing across rough/varied habitats
+    units: qualitative
+    source: RBST breed page
+    confidence: High
+
+maturation_rate:
+    value: "slow-maturing; ~4 years to finish off grass alone, or 24-30 months with 6-8 weeks supplementary feed pre-slaughter"
+    units: qualitative
+    source: RBST breed page
+    confidence: High
