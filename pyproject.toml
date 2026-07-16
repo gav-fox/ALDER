@@ -3,6 +3,11 @@ name = "alder"
 version = "0.0.1"
 description = "open-source agroforestry design simulator"
 requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pyyaml",
+]
 
 
 [build-system]

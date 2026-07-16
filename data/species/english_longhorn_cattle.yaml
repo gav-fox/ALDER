@@ -12,6 +12,7 @@ mature_liveweight_bulls:
     confidence: High
 
 mature_liveweight_females:
+    value: 750
     value_min: 650
     value_max: 850
     units: kg
