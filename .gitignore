@@ -1,8 +1,45 @@
+# Python environments and cache
 .venv/
+venv/
+env/
+.env/
 __pycache__/
+*.py[cod]
+*$py.class
 .pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# MLX / AI models
+mlx-qwen/
+mlx*/
+*.pt
+*.pth
+*.safetensors
+*.gguf
+
+# Logs and dev files
+logs/
+*.log
+dev-log.md
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
 .DS_Store
 
 # Godot 4+ specific ignores
 .godot/
 /android/
+/export_templates/
+
+# Documentation (keep only essential)
+!.gitattributes
+!.gitignore
+!.editorconfig
+!.clinerules

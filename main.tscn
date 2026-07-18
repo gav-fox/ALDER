@@ -1,12 +1,6 @@
-[gd_scene format=3 uid="uid://b4x5ylqiappeq"]
+[gd_scene format=3 uid="uid://c4iscjdbx5gvc"]
 
-[node name="Main" type="Node" unique_id=710773089]
+[ext_resource type="Script" uid="uid://krefyv3wk2sl" path="res://main.gd" id="1_ig7tw"]
 
-[node name="MyButton" type="Button" parent="." unique_id=1877980287]
-offset_right = 8.0
-offset_bottom = 8.0
-text = "Click Me"
-
-[node name="MyLabel" type="Label" parent="." unique_id=298974551]
-offset_right = 40.0
-offset_bottom = 23.0
+[node name="Node2D" type="Node2D" unique_id=38123631]
+script = ExtResource("1_ig7tw")

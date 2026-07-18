@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="ALDER frontend"
-run/main_scene="uid://b4x5ylqiappeq"
+run/main_scene="res://main.tscn"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -31,3 +31,7 @@ project/assembly_name="ALDER frontend"
 [rendering]
 
 rendering_device/driver.windows="d3d12"
+
+[uid_resources]
+
+files=["res://main.gd:uid://63480623b5d0036f"]
