@@ -35,3 +35,7 @@ rendering_device/driver.windows="d3d12"
 [uid_resources]
 
 files=["res://main.gd:uid://63480623b5d0036f"]
+
+[config]
+
+exclude_paths="res://mlx-qwen/"
